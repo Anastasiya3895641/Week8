@@ -1,0 +1,42 @@
+.main {
+    grid-area: main;
+}
+
+h1 {
+    font-family: 'Roboto Slab', sans-serif;
+font-style: normal;
+font-weight: 900;
+font-size: 60px;
+color: #000000;
+line-height: 120%;
+padding-left: 5vw;
+}
+
+.main__card-img-top {
+    max-width: 80%;
+}
+
+h5 {
+    font-family: 'Roboto Slab', sans-serif;
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 120%;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 160%;
+color: #000000;
+
+}
+
+.btn {
+  cursor: pointer;
+    background: #5222D0;
+border: #5222D0;
+border-radius: 100px; 
+}

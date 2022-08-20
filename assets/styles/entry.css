@@ -1,0 +1,11 @@
+@import url("./1page/__header/1page__header.css");
+@import url("./1page/__container1/1page__container1.css");
+@import url("./1page/__main/1page__main.css");
+@import url("./1page/__aside/1page__aside.css");
+@import url("./1page/__footer/1page__footer.css");
+@import url("./2page/__header/2page__header.css");
+
+@import url("./2page/__header/2page__header.css");
+@import url("./2page/__container/2page__container.css");
+@import url("./2page/__main/2page__main.css");
+@import url("./2page/__footer/2page__footer.css");

@@ -1,0 +1,55 @@
+
+.main {
+    grid-area: main;
+    display: grid;
+                width: 100%;
+                height: 100%;
+                grid-template-areas: "h1"
+                                     "p"
+                                     "button__main";
+                grid-template-columns: 100%;
+                grid-template-rows: 55% 25% 20%;
+                justify-items: flex-start;
+                align-content: flex-end;
+                padding-left: 8vw;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 900;
+font-size: 66px;
+color: #000000;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 160%;
+color: #000000;
+}
+
+.main__button {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+    width: 270px;
+height: 84px;
+padding-left: 15px;
+cursor: pointer;
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 900;
+font-size: 35px;
+line-height: 35px;
+color: #FFFFFF;
+background: #5222D0;
+border: #5222D0;
+border-radius: 100px;
+}
+
+.icon__main {
+    padding-right: 15px;
+}

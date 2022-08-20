@@ -1,0 +1,28 @@
+.footer {
+    grid-area: footer;
+    display: flex;
+    align-items: flex-end;
+}
+
+.nav > ul {
+    display: inline-flex;
+            width: 100%;
+            height: 100%;
+           
+            justify-content: space-around; 
+  list-style: none; 
+  padding-left: 7vw;  
+  margin-bottom: 0%;       
+}
+
+a {text-decoration: none; }
+
+
+.footer__nav {
+    font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 160%;
+color: #5222D0;
+}

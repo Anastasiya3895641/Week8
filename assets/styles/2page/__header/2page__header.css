@@ -1,0 +1,30 @@
+.header {
+    grid-area: header;
+    display: flex ;
+    align-self: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    padding-left: 5vw;
+}
+
+.header__button {
+     display: flex;
+    justify-content: space-around;
+    align-items: center;    
+    width: 115px;
+    height: 38px;
+margin-right: 5vw;
+cursor: pointer;
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 900;
+font-size: 1.1vw;
+line-height: 13px;
+text-align: center;
+color: #FFFFFF;
+background: #5222D0;
+border: #5222D0;
+border-radius: 100px;
+}

@@ -1,0 +1,10 @@
+.container1 {
+    display: grid;
+        width: 100vw;
+        height: 100vh;
+        grid-template-areas: "header header"
+                             "main aside"
+                              "footer aside";
+        grid-template-columns: 40% 60%;
+        grid-template-rows: 18vh 1fr 11vh;
+}
